@@ -9,7 +9,7 @@ SESSION_ID="${2:-}"
 AZ_SPEED="${3:-}"
 EL_SPEED="${4:-}"
 
-if [[ -z "$SESSION_ID" || -z "$AZ_SPEED" || -z "$EL_SPEED" ]]; then
+if [[ -z "$SESSION_ID" ||d -z "$AZ_SPEED" || -z "$EL_SPEED" ]]; then
   echo "Usage: $0 <camera-ip> <session-id> <azimuth-speed> <elevation-speed>" >&2
   exit 1
 fi
